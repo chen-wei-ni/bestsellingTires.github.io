@@ -1,0 +1,979 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,  initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/whole.css">
+        <link rel="stylesheet" href="https://use.typekit.net/mhv4fel.css">
+        <script>
+            (function(d) {
+              var config = {
+                kitId: 'zmb5ijl',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+          </script>    
+			<style>
+			@media screen and (min-width:1025px)  {
+body{
+    margin: 0 auto;
+}
+#top-bn {
+    max-width: 1920px;
+    height: 660px;
+    display: flex;
+}
+     .top-tire1 {
+        background: url('/images/document/cbf2d363-45a3-43dc-87cf-46df08382d7a.jpg') top center no-repeat;
+        width:100%;
+        background-size: cover;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .top-tire1 p {
+        background-color: #fff;
+        width: 336px;
+    }
+    .top-tire1 p span{
+        font-size: 3.5em;
+        display: inline-block;
+        width:5.7em;
+       /* font-family: roboto, sans-serif;
+        font-weight: 700;
+        font-style: bold;*/
+        font-family: roboto, sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        padding: 10px 20px;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 3s steps(10);
+    }
+    @keyframes typing {
+        0% {
+            width:0;
+        }
+        100% {
+            width:5.7em;
+        }
+    }
+/*如何看輪胎尺寸*/
+#howTo {
+    background: url('/images/document/963e4e66-cf4f-4613-981b-58b5a161159b.svg') left center repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+}
+    .tireZommin {
+        width:auto;
+        padding:5px 50px;
+    }
+    .tireZommin img {
+        width: 100%;
+    }
+    .tireZommin-desc {
+        /*flex-basis: 45%;*/
+        
+        text-align: center;
+    }
+        .tireZommin-desc h3 {
+            font-size: 1.5rem;
+        }
+        .tireZommin-desc h2 {
+            font-size: 2.5rem;
+            font-family: roboto, sans-serif;
+            font-weight: bold;
+            margin:0;
+            letter-spacing: 10px;
+        }
+        .sizeTag {
+            margin-bottom: 80px;
+        }
+        .sizeTag span {
+            background-color: #00a0e9;
+            color:#fff;
+            font-size: 1.1rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            padding:5px 10px;
+            margin-right: 5px;
+            position: relative;
+        }
+        .sizeTag span::before {
+            content: "";
+            border: 12px solid;
+            width: 0;
+            height: 0;
+            border-color: transparent transparent #00a0e9 transparent;
+            position: absolute;
+            top: -50%;
+            left: 30%;
+            transform: translateY(-20%);
+        }
+        .sizeTag-b {
+            font-size: 1.2rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin:10px;
+        }
+        .blueText {
+            color:#009de6;
+        }
+/*米其林輪胎*/
+.bgEach {
+    width: 100%;
+    height: auto;
+    background-size:cover;
+    position: relative;    
+}
+.mich {
+    background: url('/images/document/6cc73454-09fd-4ade-988f-874fb0230493.png') top center no-repeat;
+    
+}
+.good {
+    background: url('/images/document/064eac26-e80a-464f-8498-f06789ea5b0e.png') top center no-repeat;
+}  
+.con {
+    background:url('/images/document/07d132de-d529-495e-a951-cf3038c44a8e.png')top center no-repeat;
+}
+<!--MUG -->
+	.mug-Pic {
+        display: flex;
+        top: 50px;
+        right: 55%;
+		position: absolute;
+    }
+        .mug-Pic div {
+            width:110px;
+            margin: 0 5px;
+        }
+        .mug-Pic div img {
+            width:100%;
+            animation:muganimate 2s infinite;
+        }
+        .mug-Pic div:nth-child(2) img {
+            width:100%;
+            animation:muganimate2 2s infinite;
+        }
+    @keyframes muganimate {
+        0%{
+            width:110px;
+        }
+        50%{
+            width: 120px;
+            transform: translate3d(-2.7rem, 0, 1rem);
+        }
+        100% {
+            width:125px;
+            transform: rotate(15deg);
+        }
+
+    }
+    @keyframes muganimate2 {
+        0%{
+            width:110px;
+        }
+        50%{
+            width: 120px;
+            transform: translate3d(2.7rem, 0, 1rem);
+        }
+        100% {
+            width:125px;
+            transform: rotate(-15deg);
+        }
+
+    }
+    .mich::after {     
+        content: "MICHELIN";
+        color: #426e8f;
+        font-family: roboto, sans-serif;
+        font-size: 5em;
+        font-weight: 900;
+        font-style: italic;
+        letter-spacing: 10px;
+        position: absolute;
+        top:2%;
+        right: 2%;
+    }
+    .good::after {
+        content: "GOODYEAR";
+        color: #2c4f86;
+        font-family: roboto, sans-serif;
+        font-size: 5em;
+        font-weight: 900;
+        font-style: italic;
+        letter-spacing: 10px;
+        position: absolute;
+        top:2%;
+        right: 2%;
+    }
+    .con::after {
+        content: "CONTINENTAL";
+        color: #403f2f;
+        font-family: roboto, sans-serif;
+        font-size: 5em;
+        font-weight: 900;
+        font-style: italic;
+        letter-spacing: 10px;
+        position: absolute;
+        top:2%;
+        right: 2%;
+    }
+    .mich .blueBar {
+        background-color:#426e8f;        
+        position: absolute;
+        top:120px;
+        right:0;
+        display: block;
+    }
+    .good .blueBar {
+        background-color:#2c4f86;        
+        position: absolute;
+        top:120px;
+        right:0;
+        display: block;
+    }
+    .con .blueBar {
+        background-color:#403f2f;        
+        position: absolute;
+        top:120px;
+        right:0;
+        display: block;
+    }
+    .blueBar span{
+        color:#fff;
+        display: block;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 1.2rem;
+        padding: 8px 20px 8px 8px;
+        font-family: roboto, sans-serif;
+    }
+    .bigFont {
+        font-size: 2rem;
+    }
+    .clearfix:after {
+        content: “”;
+        display: block;
+        clear: both;
+      }
+    .michTires {
+        display: flex;
+        flex-wrap: wrap;        
+        padding-top: 200px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+        .eachMich{
+            background-color: #fff;
+            margin:15px;
+            width:320px;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+            
+        }
+        .eachMich:hover .btn-GO{
+           background-color: rgb(33, 36, 43);
+           transition: 0.3s;
+        }
+        .eachMich:hover .con-Btn{
+            background-color: rgb(33, 36, 43);
+            transition: 0.3s;
+         }
+            .tireLogo {
+                text-align: center;
+                margin:5px;
+            }
+            .tire-Line {
+                display: flex;
+                padding:10px 9px;
+            }
+            .tire-Line-Pic {
+                width:130px;
+            }
+                .tire-Line-Pic img {
+                    width:100%;
+                }
+            .tireInfo {
+                display: grid;
+                place-content: center;
+                margin-left: 5px;
+            }
+            .tireInfo span{
+                display: block;
+                font-family: roboto, sans-serif;
+            }
+            .tireInfo span:nth-child(1) {
+                font-size:1.2rem;
+            }
+            .tireInfo span:nth-child(2) {
+                font-size: 1.1rem;
+            }
+                .black-Block {
+                    background-color: #000;
+                    font-size: 0.9em;
+                    color:#fff;
+                    padding:1px 2px;
+                }
+                .red-Word {
+                    color:rgb(214, 25, 0);
+                    font-size: 1.5rem;
+                    letter-spacing: 1px;
+                    margin-left: 2px;
+                }
+            .btn-GO {
+                background-color:#426e8f; 
+                margin:5px;     
+                padding:8px 2px;
+            }
+                .btn-GO a {
+                    text-decoration: none !important;
+                    color: #fff !important;
+                    display: block;
+                    text-align: center;
+                    letter-spacing: 1px;
+                }
+            .con-Btn {
+                background-color:#403f2f; 
+                margin:5px;     
+                padding:8px 2px;
+            }
+                .con-Btn a {
+                    text-decoration: none  !important;
+                    color: #fff  !important;
+                    display: block;
+                    text-align: center;
+                    letter-spacing: 1px;
+                }
+ }
+ @media screen and (max-width:1024px)  {
+    body{
+        margin: 0 auto;
+    }
+    #top-bn {
+        max-width: 1920px;
+        height: 660px;
+        display: flex;
+    }
+         .top-tire1 {
+            background: url('/images/document/cbf2d363-45a3-43dc-87cf-46df08382d7a.jpg') top center no-repeat;
+            width:100%;
+            background-size: cover;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .top-tire1 p {
+            background-color: #fff;
+            width: 336px;
+        }
+        .top-tire1 p span{
+            font-size: 3.4em;
+            display: inline-block;
+            width:5.6em;
+           /* font-family: roboto, sans-serif;
+            font-weight: 700;
+            font-style: bold;*/
+            font-family: roboto, sans-serif;
+            font-weight: 900;
+            font-style: italic;
+            padding: 10px 20px;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 3s steps(10);
+        }
+        @keyframes typing {
+            0% {
+                width:0;
+            }
+            100% {
+                width:5.6em;
+            }
+        }
+    /*如何看輪胎尺寸*/
+    #howTo {
+        background: url('/images/document/963e4e66-cf4f-4613-981b-58b5a161159b.svg') left center repeat;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 50px 0;
+    }
+        .tireZommin {
+            width:auto;
+            padding:5px 50px;
+        }
+        .tireZommin img {
+            width: 100%;
+        }
+        .tireZommin-desc {
+            /*flex-basis: 45%;*/
+            
+            text-align: center;
+        }
+            .tireZommin-desc h3 {
+                font-size: 1.5rem;
+            }
+            .tireZommin-desc h2 {
+                font-size: 2.5rem;
+                font-family: roboto, sans-serif;
+                font-weight: bold;
+                margin:0 auto;
+                letter-spacing: 10px;
+            }
+            .sizeTag {
+                margin-bottom: 80px;
+            }
+            .sizeTag span {
+                background-color: #00a0e9;
+                color:#fff;
+                font-size: 1.1rem;
+                font-weight: bold;
+                letter-spacing: 1px;
+                padding:5px 10px;
+                margin-right: 5px;
+                position: relative;
+            }
+            .sizeTag span::before {
+                content: "";
+                border: 12px solid;
+                width: 0;
+                height: 0;
+                border-color: transparent transparent #00a0e9 transparent;
+                position: absolute;
+                top: -50%;
+                left: 30%;
+                transform: translateY(-20%);
+            }
+            .sizeTag-b {
+                font-size: 1.2rem;
+                font-weight: bold;
+                letter-spacing: 1px;
+                margin:10px;
+            }
+            .blueText {
+                color:#009de6;
+            }
+    .bgEach {
+        width: 100%;
+        height: auto;
+        background-size:cover;
+        position: relative;    
+    }
+    .mich {
+        background: url('/images/document/20ba31eb-70f7-4c60-9d73-03e676dd28bd.png') top center no-repeat;
+        
+    }
+    .good {
+        background: url('/images/document/20ba31eb-70f7-4c60-9d73-03e676dd28bd.png') top center no-repeat;
+    }  
+    .con {
+        background:url('/images/document/0d3f23fd-5ba9-4264-bb19-3bbba6822bdb.png')top center no-repeat;
+    }
+    .mich::after {     
+        content: "MICHELIN";
+        color: #426e8f;
+        font-family: roboto, sans-serif;
+        font-size: 3em;
+        font-weight: 900;
+        font-style: italic;
+        letter-spacing: 10px;
+        position: absolute;
+        top:2%;
+        right: 2%;
+    }
+    .good::after {
+        content: "GOODYEAR";
+        color: #2c4f86;
+        font-family: roboto, sans-serif;
+        font-size: 3em;
+        font-weight: 900;
+        font-style: italic;
+        letter-spacing: 5px;
+        position: absolute;
+        top:2%;
+        right: 2%;
+    }
+    .con::after {
+        content: "CONTINENTAL";
+        color: #403f2f;
+        font-family: roboto, sans-serif;
+        font-size: 2.5em;
+        font-weight: 900;
+        font-style: italic;
+        letter-spacing: 5px;
+        position: absolute;
+        top:2%;
+        right: 0;
+    }
+    .mich .blueBar {
+        background-color:#426e8f;        
+        position: absolute;
+        top:100px;
+        right:0;
+        display: block;
+    }
+    .good .blueBar {
+        background-color:#2c4f86;        
+        position: absolute;
+        top:100px;
+        right:0;
+        display: block;
+    }
+    .con .blueBar {
+        background-color:#403f2f;        
+        position: absolute;
+        top:100px;
+        right:0;
+        display: block;
+        
+    }
+    .blueBar span{
+        color:#fff;
+        display: block;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 1.2rem;
+        padding:5px 10px 5px 10px;
+        font-family: roboto, sans-serif;
+        
+    }
+    .bigFont {
+        font-size: 2rem;
+    }
+    .clearfix:after {
+        content: “”;
+        display: block;
+        clear: both;
+      }
+    .michTires {
+        display: flex;
+        flex-wrap: wrap;        
+        padding-top: 200px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+        .eachMich{
+            background-color: #fff;
+            margin:15px;
+            width:320px;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+            
+        }
+        .eachMich:hover .btn-GO{
+           background-color: rgb(33, 36, 43);
+           transition: 0.3s;
+        }
+        .eachMich:hover .con-Btn{
+            background-color: rgb(33, 36, 43);
+            transition: 0.3s;
+         }
+            .tireLogo {
+                text-align: center;
+                margin:5px;
+            }
+            .tire-Line {
+                display: flex;
+                padding:10px 9px;
+            }
+            .tire-Line-Pic {
+                width:130px;
+            }
+                .tire-Line-Pic img {
+                    width:100%;
+                }
+            .tireInfo {
+                display: grid;
+                place-content: center;
+                margin-left: 5px;
+            }
+            .tireInfo span{
+                display: block;
+                font-family: roboto, sans-serif;
+            }
+            .tireInfo span:nth-child(1) {
+                font-size:1.2rem;
+            }
+            .tireInfo span:nth-child(2) {
+                font-size: 1.1rem;
+            }
+                .black-Block {
+                    background-color: #000;
+                    font-size: 0.9em;
+                    color:#fff;
+                    padding:1px 2px;
+                }
+                .red-Word {
+                    color:rgb(214, 25, 0);
+                    font-size: 1.5rem;
+                    letter-spacing: 1px;
+                    margin-left: 1px;
+					padding: 0 !important;
+                }
+            .btn-GO {
+                background-color:#426e8f; 
+                margin:5px;     
+                padding:8px 2px;
+            }
+                .btn-GO a {
+                    text-decoration: none !important;
+                    color: #fff !important;
+                    display: block;
+                    text-align: center;
+                    letter-spacing: 1px;
+                }
+            .con-Btn {
+                background-color:#403f2f; 
+                margin:5px;     
+                padding:8px 2px;
+            }
+                .con-Btn a {
+                    text-decoration: none !important;
+                    color: #fff  !important;
+                    display: block;
+                    text-align: center;
+                    letter-spacing: 1px;
+                }
+				.red-Word:before {
+					content:'';
+					background-color:transparent !important;
+				
+				}
+				.black-Block:before {
+					content:'';
+					background-color:transparent !important;
+				
+				}
+				.bigFont:before {
+					content:'';
+					background-color:transparent !important;
+				}
+			 .mug-Pic {
+                    position: absolute;
+                    display: flex;
+                    top: 34px;
+                    left:8%;
+                }
+            
+                    .mug-Pic div {
+                        width:50px;
+                        margin: 0 5px;
+                    }
+                    .mug-Pic div img {
+                        width:100%;
+                        animation:muganimate 2s infinite;
+                    }
+                    .mug-Pic div:nth-child(2) img {
+                        width:100%;
+                        animation:muganimate2 2s infinite;
+                    }
+                @keyframes muganimate {
+                    0%{
+                        width:50px;
+                    }
+                    50%{
+                        width: 80px;
+                        transform: translate3d(-2.7rem, 0, 1rem);
+                    }
+                    100% {
+                        width:75px;
+                        transform: rotate(15deg);
+                    }
+            
+                }
+                @keyframes muganimate2 {
+                    0%{
+                        width:50px;
+                    }
+                    50%{
+                        width: 80px;
+                        transform: translate3d(2.7rem, 0, 1rem);
+                    }
+                    100% {
+                        width:75px;
+                        transform: rotate(-15deg);
+                    }
+            
+                }
+ }
+
+ 
+
+
+
+			</style>
+    </head>
+    <body>
+        <div id="top-bn">
+            <div class="top-tire1">
+                <p><span>Best Selling</span></p>
+            </div>
+        </div>
+        <div id="howTo">
+          <div class="tireZommin">
+            <img src="/images/document/4274de1f-8e6f-4d56-83d0-9bd59ab265b3.png">
+          </div>
+          <div class="tireZommin-desc">
+            <h3>如何查看輪胎尺寸</h3>
+            <h2>205/55R16</h2>
+            <p class="sizeTag">
+              <span>輪胎寬</span>
+              <span>扁平率</span>
+              <span>直徑</span>
+            </p>
+            <p class="sizeTag-b">或是找當初購車附的車主手冊,更是清楚明瞭呦!</p>
+            <p class="sizeTag-b blueText">知道尺寸後即可開始比較下單囉~</p>
+          </div>
+        </div>
+        <div class="bgEach mich">
+          <div class="blueBar">
+            <span>即日起至8月31日 購買指定米其林輪胎四條16吋以上輪胎即獲<strong class="bigFont">$800</strong>7-11電子禮券</span>
+          </div>
+          <div class="michTires">
+            <div class="eachMich">
+              <div class="tireLogo">
+                <img src="/images/document/68be501a-36d5-4c58-ba5b-d885602a738d.png">
+              </div>
+              <div class="tire-Line">
+                <div class="tire-Line-Pic">
+                  <img src="/images/document/6b85b694-786d-45ae-ae89-944b48d6a07f.png">
+                </div>
+                <div class="tireInfo"> 
+                  <span>PRIMACY 4</span>
+                  <span>205/55R16</span>
+                  <span><strong class="black-Block">1條</strong><strong class="red-Word">$3,488</strong></span>
+                </div>
+              </div>
+              <div class="btn-GO">
+                <span><a href="https://www.car1.com.tw/product/29768">熱銷爆款 立馬下單</a></span>
+              </div>
+            </div>
+            <div class="eachMich">
+              <div class="tireLogo">
+                <img src="/images/document/68be501a-36d5-4c58-ba5b-d885602a738d.png">
+              </div>
+              <div class="tire-Line">
+                <div class="tire-Line-Pic">
+                  <img src="/images/document/c931c85e-2558-4334-a4b3-6a4f118fd4bb.png">
+                </div>
+                <div class="tireInfo"> 
+                  <span>ENERGY SAVER 4</span>
+                  <span>205/55R16</span>
+                  <span><strong class="black-Block">1條</strong><strong class="red-Word">$3,388</strong></span>
+                </div>
+              </div>
+              <div class="btn-GO">
+                <span><a href="https://www.car1.com.tw/product/46903">熱銷爆款 立馬下單</a></span>
+              </div>
+            </div>
+            <div class="eachMich">
+              <div class="tireLogo">
+                <img src="/images/document/68be501a-36d5-4c58-ba5b-d885602a738d.png">
+              </div>
+              <div class="tire-Line">
+                <div class="tire-Line-Pic">
+                  <img src="/images/document/f546e46d-a05e-4f58-9b65-2b8eb3202251.png">
+                </div>
+                <div class="tireInfo"> 
+                  <span>PRIMACY SUVMI</span>
+                  <span>225/65R17</span>
+                  <span><strong class="black-Block">1條</strong><strong class="red-Word">$4,388</strong></span>
+                </div>
+              </div>
+              <div class="btn-GO">
+                <span><a href="https://www.car1.com.tw/product/17063">熱銷爆款 立馬下單</a></span>
+              </div>
+            </div>
+            <div class="eachMich">
+              <div class="tireLogo">
+                <img src="/images/document/68be501a-36d5-4c58-ba5b-d885602a738d.png">
+              </div>
+              <div class="tire-Line">
+                <div class="tire-Line-Pic">
+                  <img src="/images/document/5ff0a3f5-c9a9-4069-b718-8f63d71e8eb4.png">
+                </div>
+                <div class="tireInfo"> 
+                  <span>PILOT SPORT 4</span>
+                  <span>245/40R18</span>
+                  <span><strong class="black-Block">1條</strong><strong class="red-Word">$5,788</strong></span>
+                </div>
+              </div>
+              <div class="btn-GO">
+                <span><a href="https://www.car1.com.tw/product/17088">熱銷爆款 立馬下單</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bgEach good">
+          <div class="blueBar">
+            <span>即日起-9/30 購買四條指定系列送玩命關頭主題馬克杯組 任兩條可獲得一次百萬好禮抽獎機會</span>
+          </div>
+		  <!--MUG-->
+		   <div class="mug-Pic">
+            <div>
+              <img src="/images/document/50b17204-fe0b-4f5b-86ba-3dfc91474d98.png">
+            </div>
+            <div>
+              <img src="/images/document/8cae9049-5db9-433c-9165-29b27767c5bd.png">
+            </div>
+          </div>
+          <div class="michTires">
+            <div class="eachMich">
+              <div class="tireLogo">
+                <img src="/images/document/8bd6db02-c018-44ab-af8b-b8fca12ef2b3.png">
+              </div>
+              <div class="tire-Line">
+                <div class="tire-Line-Pic">
+                  <img src="/images/document/791cd31d-da2f-4186-9d79-4c95c391d0f0.png">
+                </div>
+                <div class="tireInfo"> 
+                  <span>EPS</span>
+                  <span>235/60R18</span>
+                  <span><strong class="black-Block">1條</strong><strong class="red-Word">$5,138</strong></span>
+                </div>
+              </div>
+              <div class="btn-GO">
+                <span><a href="https://www.car1.com.tw/product/8188">熱銷爆款 立馬下單</a></span>
+              </div>
+            </div>
+            <div class="eachMich">
+              <div class="tireLogo">
+                <img src="/images/document/8bd6db02-c018-44ab-af8b-b8fca12ef2b3.png">
+              </div>
+              <div class="tire-Line">
+                <div class="tire-Line-Pic">
+                  <img src="/images/document/8983d5ef-9036-4291-9f6d-0a6c4a972b2c.png">
+                </div>
+                <div class="tireInfo"> 
+                  <span>F1A5</span>
+                  <span>215/45R17</span>
+                  <span><strong class="black-Block">1條</strong><strong class="red-Word">$3,738</strong></span>
+                </div>
+              </div>
+              <div class="btn-GO">
+                <span><a href="https://www.car1.com.tw/product/32306">熱銷爆款 立馬下單</a></span>
+              </div>
+            </div>
+            <div class="eachMich">
+              <div class="tireLogo">
+                <img src="/images/document/8bd6db02-c018-44ab-af8b-b8fca12ef2b3.png">
+              </div>
+              <div class="tire-Line">
+                <div class="tire-Line-Pic">
+                  <img src="/images/document/b8231dc2-66b8-4a5b-9bc1-e0e28358ae74.png">
+                </div>
+                <div class="tireInfo"> 
+                  <span>EGP2</span>
+                  <span>205/55R16</span>
+                  <span><strong class="black-Block">1條</strong><strong class="red-Word">$3,288</strong></span>
+                </div>
+              </div>
+              <div class="btn-GO">
+                <span><a href="https://www.car1.com.tw/product/41125">熱銷爆款 立馬下單</a></span>
+              </div>
+            </div>
+            <div class="eachMich">
+              <div class="tireLogo">
+                <img src="/images/document/8bd6db02-c018-44ab-af8b-b8fca12ef2b3.png">
+              </div>
+              <div class="tire-Line">
+                <div class="tire-Line-Pic">
+                  <img src="/images/document/bb8e14d2-c5aa-4870-8e7c-c60dcd22c027.png">
+                </div>
+                <div class="tireInfo"> 
+                  <span>ATM2</span>
+                  <span>205/55R16</span>
+                  <span><strong class="black-Block">1條</strong><strong class="red-Word">$2,988</strong></span>
+                </div>
+              </div>
+              <div class="btn-GO">
+                <span><a href="https://www.car1.com.tw/product/25737">熱銷爆款 立馬下單</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bgEach con">
+          <div class="blueBar">
+            <span>來車麗屋下單四輪免費獲 專業安裝、四輪定位、一年保固、臭氧殺菌</span>
+          </div>
+          <div class="michTires">
+            <div class="eachMich">
+              <div class="tireLogo">
+                <img src="/images/document/5a9ac5b8-6270-4bfa-ba23-55ef7b69fee6.png">
+              </div>
+              <div class="tire-Line">
+                <div class="tire-Line-Pic">
+                  <img src="/images/document/b3bf212b-de2a-4338-a9a2-2c5194a0b97b.png">
+                </div>
+                <div class="tireInfo"> 
+                  <span>PremiumContact 6</span>
+                  <span>205/55R16</span>
+                  <span><strong class="black-Block">1條</strong><strong class="red-Word">$3,088</strong></span>
+                </div>
+              </div>
+              <div class="con-Btn">
+                <span><a href="https://www.car1.com.tw/product/31754">熱銷爆款 立馬下單</a></span>
+              </div>
+            </div>
+            <div class="eachMich">
+              <div class="tireLogo">
+                <img src="/images/document/5a9ac5b8-6270-4bfa-ba23-55ef7b69fee6.png">
+              </div>
+              <div class="tire-Line">
+                <div class="tire-Line-Pic">
+                  <img src="/images/document/ddb99d4f-24d9-43d2-87ec-d9e47e62cea3.png">
+                </div>
+                <div class="tireInfo"> 
+                  <span>UltraContact suv</span>
+                  <span>225/65R17</span>
+                  <span><strong class="black-Block">1條</strong><strong class="red-Word">$3,938</strong></span>
+                </div>
+              </div>
+              <div class="con-Btn">
+                <span><a href="https://www.car1.com.tw/product/30718">熱銷爆款 立馬下單</a></span>
+              </div>
+            </div>
+            <div class="eachMich">
+              <div class="tireLogo">
+                <img src="/images/document/5a9ac5b8-6270-4bfa-ba23-55ef7b69fee6.png">
+              </div>
+              <div class="tire-Line">
+                <div class="tire-Line-Pic">
+                  <img src="/images/document/938ded38-9888-48ea-8a1c-db9c67b4f766.png">
+                </div>
+                <div class="tireInfo"> 
+                  <span>ComfortContact 6</span>
+                  <span>205/55R16</span>
+                  <span><strong class="black-Block">1條</strong><strong class="red-Word">$3,188</strong></span>
+                </div>
+              </div>
+              <div class=" con-Btn">
+                <span><a href="https://www.car1.com.tw/product/30559">熱銷爆款 立馬下單</a></span>
+              </div>
+            </div>
+            <div class="eachMich">
+              <div class="tireLogo">
+                <img src="/images/document/5a9ac5b8-6270-4bfa-ba23-55ef7b69fee6.png">
+              </div>
+              <div class="tire-Line">
+                <div class="tire-Line-Pic">
+                  <img src="/images/document/b3bf212b-de2a-4338-a9a2-2c5194a0b97b.png">
+                </div>
+                <div class="tireInfo"> 
+                  <span>PremiumContact 6</span>
+                  <span>225/40R18</span>
+                  <span><strong class="black-Block">1條</strong><strong class="red-Word">$4,388</strong></span>
+                </div>
+              </div>
+              <div class="con-Btn">
+                <span><a href="https://www.car1.com.tw/product/17688">熱銷爆款 立馬下單</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+
+</html>
